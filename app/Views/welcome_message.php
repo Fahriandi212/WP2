@@ -250,27 +250,24 @@
     <section>
 
         <h1 class="text-center">BIODATA</h1>
-        <div class="card">
-            <div class="card-body">
-                <table class="table">
-                    <tr>
-                        <td>Nama</td>
-                        <td>:</td>
-                        <td><?= esc($nama) ?></td>
-                    </tr>
-                    <tr>
-                        <td>Nomor Induk Mahasiswa</td>
-                        <td>:</td>
-                        <td><?= esc($nim) ?></td>
-                    </tr>
-                    <tr>
-                        <td>Kelas</td>
-                        <td>:</td>
-                        <td><?= esc($kelas) ?></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+
+        <table class="table">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><?= esc($nama) ?></td>
+            </tr>
+            <tr>
+                <td>Nomor Induk Mahasiswa</td>
+                <td>:</td>
+                <td><?= esc($nim) ?></td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td><?= esc($kelas) ?></td>
+            </tr>
+        </table>
 
     </section>
 
